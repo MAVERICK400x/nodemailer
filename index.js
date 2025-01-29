@@ -1,3 +1,5 @@
+// Coding Ninjas project 
+
 import nodemailer from "nodemailer";
 import readline from "readline";
 
