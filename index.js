@@ -39,12 +39,3 @@ const Solution = () => {
 };
 
 export default Solution;
-// create an interface to take input from the user
-
-// This code uses Node.js and nodemailer library to send an email from 'codingninjas2k16@gmail.com' to the email address entered by the user. It also uses the readline library to get user input for the recipient's email address.
-
-// Firstly, it creates an interface to take input from the user using the createInterface method of readline. Then, it creates a transporter object with SMTP details to define the email service and authentication details for the sender's email address.
-
-// Next, it prompts the user to enter their email address using the question method of readline. After receiving the input, the code defines the email options such as sender, recipient, subject, and message body in the mailOptions object.
-
-// Finally, it sends the email using the sendMail method of the transporter object. If the email is sent successfully, it displays a success message along with the recipient's email address, otherwise, it displays the error message. Lastly, it closes the readline interface.
